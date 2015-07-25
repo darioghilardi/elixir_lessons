@@ -1,3 +1,6 @@
+# http://elixir-lang.org/docs/v1.0/elixir/Record.html
+# http://elixir-lang.org/getting-started/structs.html
+
 ExUnit.start
 
 defmodule User do
@@ -13,6 +16,7 @@ end
 defmodule RecordTest do
   use ExUnit.Case
 
+  # Testing records
   defmodule ScopeTest do
     use ExUnit.Case
 
@@ -25,6 +29,7 @@ defmodule RecordTest do
     end
   end
 
+  # Testing structs
   def sample do
     %User{email: "kay@example.com", password: "trains"}
   end
