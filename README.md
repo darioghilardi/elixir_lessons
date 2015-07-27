@@ -1,2 +1,3 @@
-# 30 Days with Elixir
-My personal progress on the lessons from "30 days with Elixir".
+# Elixir Exercises
+My personal progress studying Elixir.  
+Some lessons taken from "30 days with Elixir", some others from blog online material.
